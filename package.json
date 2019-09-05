@@ -1,0 +1,27 @@
+{
+  "name": "bitmex-data",
+  "version": "1.0.0",
+  "description": "Bitmex Price data",
+  "main": "export.js",
+  "scripts": {
+    "build": "tsc export.ts",
+    "start": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codler/bitmex-data.git"
+  },
+  "keywords": [
+    "bitmex"
+  ],
+  "author": "Han Lin Yap (http://yap.nu)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codler/bitmex-data/issues"
+  },
+  "homepage": "https://github.com/codler/bitmex-data#readme",
+  "devDependencies": {
+    "bitmex-data-downloader": "^1.0.2"
+  }
+}
